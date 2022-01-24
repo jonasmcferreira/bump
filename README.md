@@ -1,11 +1,12 @@
 # bumpit
 
-A simple command line Semantic version bumper
+A simple command line [Semantic version](https://semver.org/) bumper.
 
+Useful to add to your CI automation to bump your package version.
 
 ## Usage
 
-```
+```bash
 $./bumpit.sh
 usage: bumpit.sh [-Mmp] major.minor.patch
 
